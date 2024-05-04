@@ -1,0 +1,28 @@
+{
+	"name": "issue-keystatic-mdx-components",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "astro build",
+		"dev": "astro dev",
+		"format": "prettier . \"!./src/content/**\" --cache --ignore-path .gitignore --write",
+		"start": "astro preview"
+	},
+	"dependencies": {
+		"@astrojs/mdx": "^2.3.1",
+		"@astrojs/react": "^3.3.2",
+		"@keystatic/astro": "^5.0.0",
+		"@keystatic/core": "^0.5.13",
+		"astro": "^4.7.1",
+		"lucide-react": "^0.378.0",
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1"
+	},
+	"devDependencies": {
+		"@types/node": "^20.12.8",
+		"@types/react": "^18.3.1",
+		"@types/react-dom": "^18.3.0",
+		"prettier": "^3.2.5",
+		"prettier-plugin-astro": "^0.13.0"
+	}
+}
